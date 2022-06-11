@@ -7,12 +7,13 @@
 	<p>teste</p>
         <input type="text" id="num">
         <input type="text" id="num2">
-        <input type="button" value="Adição" onclick="adicionar(parseInt(num.value), parseInt(num2.value))">
+        <input type="text" id="num3">
+        <input type="button" value="Adição" onclick="adicionar(parseInt(num.value), parseInt(num2.value), parseInt(num3.value))">
                                                      <p id="p">
                                                      
                                                      <script>
-                                                     function adicionar(num, num2){
-                                                     document.getElementById("p").innerHTML=num+num2;
+                                                     function adicionar(num, num2,num3){
+                                                     document.getElementById("p").innerHTML=num+num2+num3;
                                                      }
                                                      </script>
     </body>
